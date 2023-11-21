@@ -44,7 +44,7 @@ export default function ChampionsList({v}) {
     <>
       <h1>ChampionsList</h1>
       {properChampions.length > 0 &&
-        <ul class="championList">
+        <ul className="championList">
           {properChampions}
         </ul>
       }
