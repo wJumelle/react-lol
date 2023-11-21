@@ -12,7 +12,6 @@ React App for League of Legends API
 Pour obtenir la miniature d'un champions :
 `https://ddragon.leagueoflegends.com/cdn/9.19.1/img/champion/{champ_id}.png`
 
-
 Pour obtenir l'image de chargement d'un champion : 
 `http://ddragon.leagueoflegends.com/cdn/img/champion/loading/{champ_id}_{skin_num}.jpg` 
 
