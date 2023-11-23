@@ -41,7 +41,7 @@ export default function ItemsList({v}) {
 
     return (
     <>
-        <h1>ChampionsList</h1>
+        <h1>Liste des objets</h1>
         {properItems.length > 0 &&
         <ul className="itemsList">
             {properItems}

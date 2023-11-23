@@ -7,6 +7,9 @@ import getRessource from '../Utils/getRessource-utils.js';
 // Hooks
 import { useCallback, useEffect, useState } from 'react';
 
+// Composants
+import Champion from '../Champion/Champion.jsx';
+
 export default function ChampionsList({v}) {
   // On met en cache la définition de la fonction fetchFactory afin d'éviter
   // qu'elle soit régénéré à chaque fois - ce qui reviendrait à écraser le cache à chaque
@@ -28,7 +31,10 @@ export default function ChampionsList({v}) {
         res.data[champ].image.splashart = getRessource(v, 'splashart', { champ_id: res.data[champ].id, skin_number: '0' });
         res.data[champ].image.loading = getRessource(v, 'loading', { champ_id: res.data[champ].id, skin_number: '0' });
 
-        // ToDo Récupération des URLS des skins
+        // Récupération des URLS des skins
+        res.data[champ].skins.forEach((skin, i) => {
+          res.data[champ].skins[i].image = `https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${res.data[champ].id}_${skin.num}.jpg`;
+        });
 
         // Injection de l'élément dans le tableau à retourner
         champs.push(res.data[champ]);
@@ -38,11 +44,11 @@ export default function ChampionsList({v}) {
   }, []);
 
   // Travail autour de la variable d'état champion afin de dissocier la logique du rendu
-  const properChampions = champions.map((champ) => <li key={champ.id}>{champ.name}</li>);
+  const properChampions = champions.map((champ) => <Champion key={champ.id} champ={champ}/>);
 
   return (
     <>
-      <h1>ChampionsList</h1>
+      <h1>Liste des champions</h1>
       {properChampions.length > 0 &&
         <ul className="championList">
           {properChampions}
