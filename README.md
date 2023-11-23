@@ -15,5 +15,5 @@ Pour obtenir la miniature d'un champions :
 Pour obtenir l'image de chargement d'un champion : 
 `http://ddragon.leagueoflegends.com/cdn/img/champion/loading/{champ_id}_{skin_num}.jpg` 
 
-Pour obtenir l'images des skins d'un champiosn : 
+Pour obtenir l'images des skins d'un champion : 
 `https://ddragon.leagueoflegends.com/cdn/img/champion/splash/{champ_id}_{skin_num}.jpg`
