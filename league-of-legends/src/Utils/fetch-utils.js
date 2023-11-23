@@ -1,6 +1,6 @@
 // Le principe derrière cet utilitaire est de vérifier l'existence d'un cache
 // Si le cache existe alors on le retourne, sinon nous allons chercher les données
-// ToDo : résoudre le problème de mise en cache - la fonction semble être appelé plusieurs fois
+// ToDo : le cache ne fonctionne pas car on démonte le composant et le cache est stocké dans le composant
 
 /**
  * handleFetchError - Fonction qui va gérer la lecture du statut du fetch
@@ -30,16 +30,11 @@ function responseToJSON(response) {
  * @param {Object} options 
  * @returns 
  */
-export default function fetchFactory(url, options) {
-    console.log('fetchFactory init', url);
+export default function fetchFactory() {
     const cache = {};
-
     return function(url, options) {
         // On boucle sur les propriétés de l'objet cache afin de déterminer 
         // l'existence du cache autour de l'URL
-
-        console.log('fetchFactory', url, cache, url in cache, cache[url]);
-
         if(url in cache) {
             return Promise.resolve(cache[url]);
         }
