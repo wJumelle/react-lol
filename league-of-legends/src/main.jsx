@@ -12,6 +12,7 @@ import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 // Composants
 import ChampionsList from './ChampionsList/ChampionsList';
 import ItemsList from './ItemsList/ItemsList.jsx';
+import ChampionProfile from './Champion/ChampionProfile/ChampionProfile.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <Router>
@@ -28,6 +29,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             </Route>
             <Route path="/champions-list">
                 <ChampionsList v={VERSION} />
+            </Route>
+            <Route path="/champion/:id">
+                <ChampionProfile />
             </Route>
             <Route path="/items-list">
                 <ItemsList v={VERSION} />
