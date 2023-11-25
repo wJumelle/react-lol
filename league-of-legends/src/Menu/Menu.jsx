@@ -29,9 +29,9 @@ export default function Menu() {
             <div className={classesNavigationContainer}>
                 <nav role="navigation" className="main-navigation">
                     <ul>
-                        <li><Link to="/">Accueil</Link></li>
-                        <li><Link to="/champions-list">Liste des champions</Link></li>
-                        <li><Link to="/items-list">Liste des objets</Link></li>
+                        <li><Link to="/" onClick={handleClickButtonMenu}>Accueil</Link></li>
+                        <li><Link to="/champions-list" onClick={handleClickButtonMenu}>Liste des champions</Link></li>
+                        <li><Link to="/items-list" onClick={handleClickButtonMenu}>Liste des objets</Link></li>
                     </ul>
                 </nav>
             </div>
