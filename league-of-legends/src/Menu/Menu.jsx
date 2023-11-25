@@ -15,6 +15,7 @@ export default function Menu() {
 
     const labelButtonMenu = (isOpenned) ? "Fermer le menu" : "Ouvrir le menu";
     const classesButtonMenu = (isOpenned) ? "main-navigation__button is-openned" : "main-navigation__button is-closed";
+    const classesNavigationContainer = (isOpenned) ? "main-navigation__container is-openned" : "main-navigation__container is-closed";
 
     return (
         <>
@@ -25,17 +26,15 @@ export default function Menu() {
                     <span className="line line3"></span>
                 </span>
             </button>
-            {isOpenned && 
-                <div className="main-navigation__container">
-                    <nav role="navigation" className="main-navigation">
-                        <ul>
-                            <li><Link to="/">Accueil</Link></li>
-                            <li><Link to="/champions-list">Liste des champions</Link></li>
-                            <li><Link to="/items-list">Liste des objets</Link></li>
-                        </ul>
-                    </nav>
-                </div>
-            }
+            <div className={classesNavigationContainer}>
+                <nav role="navigation" className="main-navigation">
+                    <ul>
+                        <li><Link to="/">Accueil</Link></li>
+                        <li><Link to="/champions-list">Liste des champions</Link></li>
+                        <li><Link to="/items-list">Liste des objets</Link></li>
+                    </ul>
+                </nav>
+            </div>
         </>
         
     )

@@ -6,6 +6,12 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    transform: translateX(-100%);
+    transition: transform 500ms var(--anim-timing);
+}
+
+.main-navigation__container.is-openned {
+    transform: translateX(0);
 }
 
 .main-navigation ul {
