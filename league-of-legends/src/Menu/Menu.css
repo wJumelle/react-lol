@@ -44,6 +44,7 @@
     width: 30px;
     height: 3px;
     background-color: black;
+    border-radius: 10px;
 }
 
 .main-navigation__button .line:not(.line2) {
@@ -63,7 +64,10 @@
 }
 
 .main-navigation__button.is-openned .line1 {
-    transform: rotate(45deg);
+    transform: 
+        rotate(45deg) 
+        scale(1.25) 
+        translate(0px, -3px);
 }
 
 .main-navigation__button.is-openned .line2 {
@@ -71,5 +75,8 @@
 }
 
 .main-navigation__button.is-openned .line3 {
-    transform: rotate(-45deg);
+    transform: 
+        rotate(-45deg)
+        scale(1.25) 
+        translate(0px, 3px);
 }
