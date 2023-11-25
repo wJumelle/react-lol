@@ -7,22 +7,17 @@ import './index.css';
 import { VERSION } from './config';
 
 // Router
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 // Composants
+import Menu from './Menu/Menu.jsx';
 import ChampionsList from './ChampionsList/ChampionsList';
 import ItemsList from './ItemsList/ItemsList.jsx';
 import ChampionProfile from './Champion/ChampionProfile/ChampionProfile.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <Router>
-        <nav>
-        <ul>
-            <li><Link to="/">Accueil</Link></li>
-            <li><Link to="/champions-list">Liste des champions</Link></li>
-            <li><Link to="/items-list">Liste des objets</Link></li>
-        </ul>
-        </nav>
+        <Menu />
         <Switch>
             <Route path="/" exact>
                 <App />
