@@ -1,9 +1,15 @@
-import { useParams } from "react-router-dom";
-
 export default function ChampionProfile({champion}) {
-    let { id } = useParams();
-
     return (
-        <h1>Profil du champion : {id}</h1>
+        <>
+            <header className="profile-header">
+                <span>{champion.title}</span>
+                <h1>{champion.name}</h1>
+            </header>
+            <main>
+                <section className="profile-lore">
+                    <p>{champion.lore}</p>
+                </section>
+            </main>
+        </>
     )
 }

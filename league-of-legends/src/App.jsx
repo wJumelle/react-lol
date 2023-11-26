@@ -83,7 +83,7 @@ function App({v}) {
               </Route>
               <Route path="/champion/:id" render={routeProps => {
                 const id = routeProps.match.params.id;
-                const champion = champions.filter(champ => champ.id === id);
+                const champion = champions.filter(champ => champ.id === id)[0];
                 return <ChampionProfile champion={champion} />
               }}>
               </Route>
