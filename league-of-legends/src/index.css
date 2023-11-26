@@ -24,12 +24,33 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  font-family: "Spiegel";
+  font-weight: 400;
+  font-style: normal;
   font-size: 1.8rem;
+  letter-spacing: 0.08em;
+}
+
+h1,h2,h3,h4,h5 {
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-family: 'Beaufort';
+  font-weight: 800;
+  font-style: italic;
+  font-size: 6rem;
+  line-height: 1.5em;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'Beaufort';
+  font-weight: 800;
+  font-style: italic;
+  font-size: 6rem;
 }
 
 button {

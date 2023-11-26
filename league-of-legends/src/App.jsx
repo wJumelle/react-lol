@@ -75,8 +75,7 @@ function App({v}) {
           <Menu />
           <Switch>
               <Route path="/" exact>
-                <h1>Application autour de League of Legends</h1>
-                <h2>SUUUUUUUUUUUUUUUUUUUUUUUU</h2>
+                <h1>League of Legends</h1>
               </Route>
               <Route path="/champions-list">
                   <ChampionsList champions={champions} />

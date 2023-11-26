@@ -1,0 +1,195 @@
+/* Beaufort */
+@font-face {
+    /* font-family: "Beaufort Light"; */
+    font-family: "Beaufort";
+    src: url("./assets/fonts/Beaufort/BeaufortforLOL-Light.woff");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "Beaufort";
+    src: url("./assets/fonts/Beaufort/BeaufortforLOL-LightItalic.woff");
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    /* font-family: "Beaufort Regular"; */
+    font-family: "Beaufort";
+    font-weight: 400;
+    src: url("./assets/fonts/Beaufort/BeaufortforLOL-Regular.woff");
+}
+
+@font-face {
+    /* font-family: "Beaufort Regular Italic"; */
+    font-family: "Beaufort";
+    font-weight: 400;
+    src: url("./assets/fonts/Beaufort/BeaufortforLOL-Italic.woff");
+    font-style: italic;
+}
+
+@font-face {
+    /* font-family: "Beaufort Medium"; */
+    font-family: "Beaufort";
+    src: url("./assets/fonts/Beaufort/BeaufortforLOL-Medium.woff");
+    font-weight: 500;
+}
+
+@font-face {
+    /* font-family: "Beaufort Medium Italic"; */
+    font-family: "Beaufort";
+    src: url("./assets/fonts/Beaufort/BeaufortforLOL-MediumItalic.woff");
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    /* font-family: "Beaufort Bold"; */
+    font-family: "Beaufort";
+    font-weight: 700;
+    src: url("./assets/fonts/Beaufort/BeaufortforLOL-Bold.woff");
+}
+
+@font-face {
+    /* font-family: "Beaufort Bold Italic"; */
+    font-family: "Beaufort";
+    font-weight: 700;
+    src: url("./assets/fonts/Beaufort/BeaufortforLOL-BoldItalic.woff");
+    font-style: italic;
+}
+
+@font-face {
+    /* font-family: "Beaufort Heavy"; */
+    font-family: "Beaufort";
+    font-weight: 900;
+    src: url("./assets/fonts/Beaufort/BeaufortforLOL-Heavy.woff");
+}
+
+@font-face {
+    /* font-family: "Beaufort Heavy Italic"; */
+    font-family: "Beaufort";
+    font-weight: 900;
+    src: url("./assets/fonts/Beaufort/BeaufortforLOL-HeavyItalic.woff");
+    font-style: italic;
+}
+
+/* Spiegel Sans */
+@font-face {
+    /* font-family: "Spiegel Sans ExtraLight"; */
+    font-family: "Spiegel";
+    font-weight: 100;
+    src: url("./assets/fonts/SpiegelSans/SpiegelSans-2ExtraLight_TRIAL.woff2");
+}
+
+@font-face {
+    /* font-family: "Spiegel Sans ExtraLight Italic"; */
+    font-family: "Spiegel";
+    font-weight: 100;
+    src: url("./assets/fonts/SpiegelSans/SpiegelSans-2ExtraLightItalic_TRIAL.woff2");
+    font-style: italic;
+}
+
+@font-face {
+    /* font-family: "Spiegel Sans Light"; */
+    font-family: "Spiegel";
+    src: url("./assets/fonts/SpiegelSans/SpiegelSans-3Light_TRIAL.woff2");
+    font-weight: 200;
+}
+
+@font-face {
+    /* font-family: "Spiegel Sans Light Italic"; */
+    font-family: "Spiegel";
+    src: url("./assets/fonts/SpiegelSans/SpiegelSans-3LightItalic_TRIAL.woff2");
+    font-weight: 200;
+    font-style: italic;
+}
+
+@font-face {
+    /* font-family: "Spiegel Sans SemiLight"; */
+    font-family: "Spiegel";
+    src: url("./assets/fonts/SpiegelSans/SpiegelSans-4SemiLight_TRIAL.woff2");
+    font-weight: 300;
+}
+
+@font-face {
+    /* font-family: "Spiegel Sans SemiLight Italic"; */
+    font-family: "Spiegel";
+    src: url("./assets/fonts/SpiegelSans/SpiegelSans-4SemiLightItalic_TRIAL.woff2");
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    /* font-family: "Spiegel Sans Regular"; */
+    font-family: "Spiegel";
+    src: url("./assets/fonts/SpiegelSans/SpiegelSans-5Regular_TRIAL.woff2");
+    font-weight: 400;
+}
+
+@font-face {
+    /* font-family: "Spiegel Sans Regular Italic"; */
+    font-family: "Spiegel";
+    src: url("./assets/fonts/SpiegelSans/SpiegelSans-5RegularItalic_TRIAL.woff2");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    /* font-family: "Spiegel Sans SemiBold"; */
+    font-family: "Spiegel";
+    src: url("./assets/fonts/SpiegelSans/SpiegelSans-6SemiBold_TRIAL.woff2");
+    font-weight: 600;
+}
+
+@font-face {
+    /* font-family: "Spiegel Sans SemiBold Italic"; */
+    font-family: "Spiegel";
+    src: url("./assets/fonts/SpiegelSans/SpiegelSans-6SemiBoldItalic_TRIAL.woff2");
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    /* font-family: "Spiegel Sans Bold"; */
+    font-family: "Spiegel";
+    src: url("./assets/fonts/SpiegelSans/SpiegelSans-7Bold_TRIAL.woff2");
+    font-weight: 700;
+}
+
+@font-face {
+    /* font-family: "Spiegel Sans Bold Italic"; */
+    font-family: "Spiegel";
+    src: url("./assets/fonts/SpiegelSans/SpiegelSans-7BoldItalic_TRIAL.woff2");
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    /* font-family: "Spiegel Sans ExtraBold"; */
+    font-family: "Spiegel";
+    src: url("./assets/fonts/SpiegelSans/SpiegelSans-8ExtraBold_TRIAL.woff2");
+    font-weight: 800;
+}
+
+@font-face {
+    /* font-family: "Spiegel Sans ExtraBold Italic"; */
+    font-family: "Spiegel";
+    src: url("./assets/fonts/SpiegelSans/SpiegelSans-8ExtraBoldItalic_TRIAL.woff2");
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    /* font-family: "Spiegel Sans Black"; */
+    font-family: "Spiegel";
+    src: url("./assets/fonts/SpiegelSans/SpiegelSans-9Black_TRIAL.woff2");
+    font-weight: 900;
+}
+
+@font-face {
+    /* font-family: "Spiegel Sans Black Italic"; */
+    font-family: "Spiegel";
+    src: url("./assets/fonts/SpiegelSans/SpiegelSans-9BlackItalic_TRIAL.woff2");
+    font-weight: 900;
+    font-style: italic;
+}
