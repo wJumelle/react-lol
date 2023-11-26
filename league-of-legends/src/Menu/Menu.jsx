@@ -19,7 +19,7 @@ export default function Menu() {
 
     return (
         <>
-            <button onClick={handleClickButtonMenu} className={classesButtonMenu} aria-labe={labelButtonMenu}>
+            <button onClick={handleClickButtonMenu} className={classesButtonMenu} aria-label={labelButtonMenu}>
                 <span className="main-navigation__button-inner-container">
                     <span className="line line1"></span>
                     <span className="line line2"></span>
