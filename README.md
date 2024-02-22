@@ -20,3 +20,5 @@ Pour obtenir l'image des skins d'un champion :
 
 Pour obtenir l'image d'un item : 
 `https://ddragon.leagueoflegends.com/cdn/13.23.1/img/item/{item_id}.png`
+
+22/02/2024 - Travail excell autour des tickets à MEP
